@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Sechkin - 12a\\GitExercise\\GitExercise\\GitExercise.csproj": {}
+    "D:\\Sechkin - 12a\\GitHub examples\\GitExercise\\GitExercise.csproj": {}
   },
   "projects": {
-    "D:\\Sechkin - 12a\\GitExercise\\GitExercise\\GitExercise.csproj": {
+    "D:\\Sechkin - 12a\\GitHub examples\\GitExercise\\GitExercise.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Sechkin - 12a\\GitExercise\\GitExercise\\GitExercise.csproj",
+        "projectUniqueName": "D:\\Sechkin - 12a\\GitHub examples\\GitExercise\\GitExercise.csproj",
         "projectName": "GitExercise",
-        "projectPath": "D:\\Sechkin - 12a\\GitExercise\\GitExercise\\GitExercise.csproj",
+        "projectPath": "D:\\Sechkin - 12a\\GitHub examples\\GitExercise\\GitExercise.csproj",
         "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-        "outputPath": "D:\\Sechkin - 12a\\GitExercise\\GitExercise\\obj\\",
+        "outputPath": "D:\\Sechkin - 12a\\GitHub examples\\GitExercise\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
