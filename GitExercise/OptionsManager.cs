@@ -51,7 +51,7 @@ namespace GitExercise
             long result = a;
             for (int i = a - 1; i >= 1 ; i--)
             {
-                result = result * i;
+                result = result *  i;
             }
             return result;
         }
