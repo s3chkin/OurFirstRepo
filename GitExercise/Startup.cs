@@ -6,6 +6,12 @@ namespace GitExercise
     {
         private static bool CheckCredentials()
         {
+          while (true)
+            {
+                Console.Clear();
+                Console.WriteLine("Console Calculator App");
+                Console.WriteLine(new string(ci: '-', count: 15));
+
             Console.Write("Enter password to gain access: ");
             string password = Console.ReadLine();
             Console.Clear();
@@ -39,13 +45,22 @@ namespace GitExercise
                     OptionsManager.Add(a, b);
                     break;
                 case "s":
-                    OptionsManager.SubtractAbs(a, b);
+                    OptionsManager.Subtract(a, b);
                     break;
                 case "m":
                     OptionsManager.Multiply(a, b);
+                    case"dr"
+                    break; 
+                    OptionsManager.DivideRemainder(a, b);
+                    case"ex"
                     break;
+                    Console.Clear();
+                    Console.WriteLine("Goodbye");
+                    Console.ReadKey(intercapt: true);
+                    return;
             }
 
+        }  
             Console.WriteLine("Pres any key to close the app...");
             Console.ReadKey(true);
         }
